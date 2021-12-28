@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400&display=swap');
+
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}  
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #cdd5e4;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 800px;
+    float: left;
+    font-family: 'Outfit', sans-serif;
+    color: #cdd5e4;
+}
+
+.menu {
+    float: right;  
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #99a1a7;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #cdd5e4;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Fuzzy Bubbles", cursive;
+    color: #99a1a7;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-family: "Fuzzy Bubbles", cursive;
+    font-weight: 800;
+    font-size: 35px;
+    margin-bottom: 0px;
+    color: #99a1a7;
+    width: 100%;
+    line-height: 50px;
+    margin-left: 10px;
+}
+
+h3 {
+    font-family: "Fuzzy Bubbles", cursive;
+    font-weight: 800;
+    font-size: 25px;
+    margin-bottom: 0px;
+    color: #99a1a7;
+    width: 100%;
+    line-height: 50px;
+    margin-left: 10px;
+}
+
+.top-wrapper img {
+    width: 100%;
+    height: 500px;
+    padding-top: 10px;
+}
+
+.top-wrapper2 {
+    margin-top: -80px;
+}
+
+.top-wrapper2 h3 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.top-wrapper2 p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    color: #54595c;
+    text-align: justify;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.top-wrapper3 h3 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.top-wrapper3 p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    color: #54595c;
+    text-align: justify;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.top-wrapper3 {
+    margin-top: -130px;
+}
+
+.top-wrapper3 img {
+    width: 800px;
+    height: 450px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.top-wrapper4 h3 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.top-wrapper4 p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    color: #54595c;
+    text-align: justify;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.top-wrapper4 {
+    margin-top: -130px;
+}
+
+.top-wrapper5 h3 {
+    text-align: center;
+    font-size: 35px;
+    margin-left: 405px;
+}
+
+.top-wrapper5 p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    color: #54595c;
+    text-align: justify;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.top-wrapper5 {
+    margin-top: -130px;
+}
+
+.footer {
+    background-color: #99a1a7;
+    width: 100%;
+    height: 180px;
+    font-family: 'Outfit', sans-serif;
+    color: #cdd5e4;
+    font-size: 23px;
+}
+
+.footer-logo {
+    font-size: 40px;
+    padding: 10px;
+   
+}
+
+.footer li {
+    text-align: right;
+    padding-right: 20px;
+    font-size: 25px;
+}
+
+.top-wrapper5 a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #54595c;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: 'Outfit', sans-serif;
+}
+
+form {
+    width: 50%;
+    font-family: 'Outfit', sans-serif;
+    padding: 25px;
+    margin: 15px;
+    box-shadow: 0 2px 5px #f5f5f5; 
+    background: #f5f5f5; 
+    text-align: center;
+    background-color: #cdd5e4;
+}
+
+input, textarea {
+    width: calc(100% - 18px);
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    outline: none;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    background: #99a1a7; 
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+
+}
+
+button:hover {
+    background: #54595c;
+}
+
